@@ -1,0 +1,95 @@
+!Xft
+Xft.dpi:                102
+
+Xft.antialias:          true
+Xft.hinting:            true
+Xft.rgba:               rgba
+Xft.autohint:           true
+Xft.hintstyle:          hintfull
+Xft.lcdfilter:          lcddefault
+
+!Clipboard
+URxvt.perl-ext-common: default,clipboard
+URxvt.perl-ext:        default,matcher
+
+URxvt.iso14755: False
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.clipboard.copycmd: xsel -ib
+URxvt.clipboard.pastecmd: xsel -ob
+
+!Fonts!
+#define myfont  lucy tewi
+#define mysize  8
+URxvt.font: xft:myfont:regular:size=mysize,\
+                         xft:Inconsolata for Powerline:regular:size=12
+                         xft:Kochi Gothic,\
+                         xft:Baekmuk Dotum,\
+                         xft:WenQuanYi Bitmap Song,\
+                         xft:Inconsolata for Powerline,\
+                         xft:FreeSerif,\
+                         xft:Symbola:pixelsize=12,\
+                         xft:noto-fonts-emoji,\
+                         xft:FontAwesome
+URxvt.imFont:            xft:myfont:regular:size=mysize,\
+                         xft:Inconsolata for Powerline:regular:size=12  
+URxvt.boldFont:          xft:myfont:regular:size=mysize,\
+                         xft:Inconsolata for Powerline:bold:size=12,\
+                         xft:Kochi Gothic,\
+                         xft:Baekmuk Dotum,\
+                         xft:WenQuanYi Bitmap Song,\
+                         xft:FreeSerif
+URxvt.italicFont:        xft:myfont:bold:size=mysize,\
+                         xft:Inconsolata for Powerline:italic:size=12
+URxvt.boldItalicFont:    xft:Inconsolata for Powerline:bold:italic:size=12
+
+URxvt.depth: 24
+URxvt.scrollBar: false
+URxvt.preeditType: OverTheSpot
+
+!URL Behaviour
+URxvt.url-launcher: firefox
+URxvt.colorUL: #C91640
+URxvt.matcher.button: 1
+
+
+
+! special
+ *.foreground:   #e0e0e0
+ *.background:   #1f1220
+!#1f1220
+
+ *.cursorColor:  #e0e0e0
+
+! ! black
+ *.color0:       #201c20
+ *.color8:       #7a6f79
+
+! ! red
+ *.color1:       #c000c0
+ *.color9:       #cd2727
+
+! ! green
+ *.color2:       #5dbd2d
+ *.color10:      #398c10
+
+! ! yellow
+*.color3:       #fadf5c
+*.color11:      #c1ea91
+
+! ! blue
+ *.color4:       #1f61a0
+ *.color12:      #33608b
+
+! ! magenta
+ *.color5:       #8f1b9b
+ *.color13:      #af5faf
+
+! ! cyan
+ *.color6:       #ffbce6
+ *.color14:      #ffbce6
+
+! ! white
+ *.color7:       #85daff
+ *.color15:      #ffeafa
+

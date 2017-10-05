@@ -1,0 +1,50 @@
+rename yumenikkidesktop
+rename yumenikkidesktop.png
+shell touch bar.sh
+shell unzip
+extracthere
+extracthere 
+shell 
+rename _
+mkdir 
+rename img
+rename tmp
+rename rice
+rename dsk
+rename doc
+search kbd
+search tewi
+search i3
+c
+;
+t
+mkdir nmapplet
+rename nmgui.sh
+shell unrar
+shell unrar Yume_Nikki.rar
+w
+mkdir uni
+mkdir Lab1
+search ssh
+search syslog
+mkdir test
+pushd
+search screen
+Q
+mkdir 2017-10
+rename 2017-04
+rename 2017-02
+rename 2017-06
+rename 2017-03
+rename 2017-09
+open_with vun
+rename src
+unzip
+zip
+extract
+
+mkdir cs2
+open_with vim
+open_with 
+rem
+delete
